@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 7, 2020, 9:42:42 PM
+    Author     : Kobe Douglas
+*/
+
+.menu-type-1 {
+    -fx-background-image: url('pinktree.jpg'); 
+    -fx-background-position: center center; 
+    -fx-background-repeat: stretch;
+}
+.menu-type-1 .title {
+    -fx-background-image: url('Title.png');
+}
+
+.menu-type-1 .button:hover {
+    -fx-cursor: hand;
+    -fx-background-color: rgb(177, 244, 250);
+    
+}
+
+.menu-type-2 .toggle-button {
+    -fx-cursor: hand;
+}
+
+.menu-type-2 .button:hover {
+    -fx-cursor: hand;
+    -fx-background-color: rgb(177, 244, 250);
+}
+
+
+.player-style .toggle-button:hover {
+    -fx-effect: innershadow(gaussian, rgb(149, 57, 247), 100, 0, 0, 0);
+}
+
+.color-style .toggle-button:hover {
+    -fx-effect: innershadow(gaussian, white, 20, 0.5, .5, .5);
+}
+
+.player-style .toggle-button:selected {
+    -fx-effect: innershadow(gaussian, rgb(217, 132, 4), 100, 0, 0, 0);
+}
+
+.color-style .toggle-button:selected {
+    -fx-effect: innershadow(gaussian, black, 20, .8, 0, 0);
+}
